@@ -1,6 +1,7 @@
-const { log } = require("console");
 const os = require("os")
-console.log(os.uptime());//method returns the system uptime in second
+
+
+console.log(os.uptime());//method returns the system uptime in seconds
 
 
 const user = os.userInfo()

@@ -10,7 +10,9 @@ console.log(data, "data");
 require("./7-mind-grenede");
 
 const _ = require("lodash");
+const { log } = require("console");
 
 const arr = [1, 2, [3, 4, [5, 6]]];
 console.log(_.flattenDeep(arr), "arr");
-console.log(arr.flatMap(), "arrflat");
+// console.log(arr.flatMap(), "arrflat");
+console.log(arr);
